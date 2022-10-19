@@ -16,6 +16,7 @@ namespace Market
             Name = name;
             Price = price;
             Count = count;
+            TotalIncome = 0;
         }
 
         public virtual void Sell(int sold)
